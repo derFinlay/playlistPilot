@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Roboto+Mono:wght@300;500&family=Roboto:wght@100;300&display=swap');
+:root {
+  font-family: 'Roboto', cursive;
+  /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif; */
+  line-height: 1.5;
+  font-weight: 300;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+html{
+  background-color: #2e282a;
+
+}
+
+.icon {
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.icon:hover{
+  transform: scale(1.05);
+}
